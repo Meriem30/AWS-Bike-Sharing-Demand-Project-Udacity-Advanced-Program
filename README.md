@@ -1,6 +1,8 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
 #### ARBAOUI MERIEM
->Here is the notebook page of all the steps accomplished though this project [index](https://meriem30.github.io/AWS-Bike-Sharing-Demand-Project-Udacity-Advanced-Program/index.html). 
+### 📊 [View Full Project Notebook](https://meriem30.github.io/AWS-Bike-Sharing-Demand-Project-Udacity-Advanced-Program/)
+
+> Click the link above to see all the steps accomplished throughout this project [index](https://meriem30.github.io/AWS-Bike-Sharing-Demand-Project-Udacity-Advanced-Program/index.html). 
 
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
