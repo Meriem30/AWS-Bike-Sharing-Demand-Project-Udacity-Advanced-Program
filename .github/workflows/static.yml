@@ -39,10 +39,10 @@ jobs:
           # Upload entire repository
           path: '.'
       - name: Ensure index.html is prioritized
-          run:|
-          if [ -f "index.html" ]; then
+        run: |
+         if [ -f "index.html" ]; then
           echo "index.html found and will be used as homepage"
-          fi
+         fi
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
