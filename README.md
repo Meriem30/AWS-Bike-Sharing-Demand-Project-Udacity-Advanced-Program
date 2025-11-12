@@ -4,6 +4,12 @@
 
 > Click the link above to see all the steps accomplished throughout this project [index](https://meriem30.github.io/AWS-Bike-Sharing-Demand-Project-Udacity-Advanced-Program/index.html). 
 
+---
+
+> #### Reviewer Note for my Project Submission on Udacity Platform
+> *"You’ve submitted an excellent project that not only meets all Udacity rubric criteria but also shows initiative in documenting your process clearly and thoughtfully."*
+___
+
 ## Initial Training
 ### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
 The first submission was accepted on the first try because there were no negative values in the predictions (although I had added code to clip them just in case). However, the submission process failed when I attempted it directly from the SageMaker notebook. Instead, I successfully submitted the predictions manually through the Kaggle platform.
@@ -62,6 +68,3 @@ This reflects a 23.7% improvement over the feature-engineered model. The improve
 This project demonstrated the power of AutoGluon in rapidly training high-performance tabular models. The most important boost in performance came from feature engineering, especially extracting the hour from datetime and converting variables to categorical types. Hyperparameter tuning gave good improvements but not as good as the feature engineering. Overall, AutoGluon's default ensembling, stacking, and model selection proved very effective out-of-the-box.
 
 For further improvement, I would explore richer features and spend more time on tuning individual models using hyperparameters directly.
-
-> #### Reviewer Note for my Project Submission on Udacity Platform
-> *"You’ve submitted an excellent project that not only meets all Udacity rubric criteria but also shows initiative in documenting your process clearly and thoughtfully."*
